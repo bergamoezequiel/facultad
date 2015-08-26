@@ -1,0 +1,6 @@
+cuando tomo el total de casos como distinguible o indistinguible, etc.. Tengo que tener el mismo trataamiento para casos favorables. 
+(si para los casos totales considero indistinguible, para los favorables tambien tengo que considerar indistinguible)
+
+EJEMPLO: 7 regalos en 5 cajas. Ubicar 6 regalos en la primer caja  y 1 regalo en la ultima
+CASO INDISTINGUiBLE: Es un evento elemental, osea es 1 caso favorable
+CASO DISTINGUIBLE: tengo 7 casos favorables. 1er en la ultima y los demas en la primera,2do en la ultima y los demas en la primera,
