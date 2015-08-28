@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabla>
+  <elemento puntaje="500" nombre="Robben" />
+  <elemento puntaje="400" nombre="Ribery" />
+  <elemento puntaje="300" nombre="Messi" />
+  <elemento puntaje="200" nombre="CR7" />
+  <elemento puntaje="100" nombre="Martin" />
+</tabla>

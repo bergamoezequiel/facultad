@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nivel Nombre="Nivel Vacio" MovimientosLimites="50" PuntajePorMovimientoSobrante="1">
+  <mapa filas="9" columnas="9">
+    <celda>
+      <coordenada x="0" y="0" />
+      <contenido tipoDeEncontrable="Conductor" />
+    </celda>
+    <celda>
+      <coordenada x="7" y="6" />
+      <contenido tipoDeEncontrable="Llegada" />
+    </celda>
+  </mapa>
+</nivel>
