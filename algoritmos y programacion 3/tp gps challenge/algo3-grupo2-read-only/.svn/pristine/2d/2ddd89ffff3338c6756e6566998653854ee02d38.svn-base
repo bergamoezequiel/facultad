@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nivel Nombre="Nivel Facil" MovimientosLimites="50" PuntajePorMovimientoSobrante="1">
+  <mapa filas="9" columnas="9">
+    <celda>
+      <coordenada x="0" y="1" />
+      <contenido tipoDeEncontrable="Snorlax" />
+    </celda>
+    <celda>
+      <coordenada x="0" y="5" />
+      <contenido tipoDeEncontrable="Cambio" />
+    </celda>
+    <celda>
+      <coordenada x="0" y="8" />
+      <contenido tipoDeEncontrable="Conductor" />
+    </celda>
+    <celda>
+      <coordenada x="1" y="4" />
+      <contenido tipoDeEncontrable="Snorlax" />
+    </celda>
+    <celda>
+      <coordenada x="1" y="8" />
+      <contenido tipoDeEncontrable="Pozo" penalizacion="3" />
+    </celda>
+    <celda>
+      <coordenada x="3" y="0" />
+      <contenido tipoDeEncontrable="Cambio" />
+    </celda>
+    <celda>
+      <coordenada x="3" y="2" />
+      <contenido tipoDeEncontrable="Control" penalizacion="3" />
+    </celda>
+    <celda>
+      <coordenada x="3" y="6" />
+      <contenido tipoDeEncontrable="favorable" />
+    </celda>
+    <celda>
+      <coordenada x="5" y="0" />
+      <contenido tipoDeEncontrable="Piquete" penalizacion="2" />
+    </celda>
+    <celda>
+      <coordenada x="5" y="6" />
+      <contenido tipoDeEncontrable="Desfavorable" />
+    </celda>
+    <celda>
+      <coordenada x="6" y="1" />
+      <contenido tipoDeEncontrable="Snorlax" />
+    </celda>
+    <celda>
+      <coordenada x="6" y="3" />
+      <contenido tipoDeEncontrable="Snorlax" />
+    </celda>
+    <celda>
+      <coordenada x="7" y="0" />
+      <contenido tipoDeEncontrable="Llegada" />
+    </celda>
+    <celda>
+      <coordenada x="7" y="8" />
+      <contenido tipoDeEncontrable="Desfavorable" />
+    </celda>
+  </mapa>
+</nivel>

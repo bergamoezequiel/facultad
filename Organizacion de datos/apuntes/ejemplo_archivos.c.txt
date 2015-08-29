@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+#define ERROR -1
+#define OK 0
+#define LONG 100
+#define RUTA "miArchivo.txt"
+
+int main(){
+
+	FILE* fd = fopen(RUTA, "w"); //Abro para escribir.
+	
+	if(!fd){
+		fprintf(stderr, "No se pudo abrir el archivo para escritura. \n");
+		return ERROR;
+	}
+	
+	for(int i=0; i<LONG; i++){
+		frwite((void*)&i, sizeof(i), 1, fd); //Uso 1 porque escribo un solo dato.
+	}
+	
+	fclose(fd); //Cierro el archivo para abrirlo en otro modo.
+	
+	fd = fopen(RUTA, "r"); //Abro para leer.
+	
+	if(!fd){
+		fprintf(stderr, "No se pudo abrir el archivo para lectura. \n");
+		return ERROR;
+	}
+	
+	int dato;
+	fread((void*) &dato, sizeof(dato),1,fd);//Uso 1 porque leo un solo dato.
+	
+	while(!feof(fd)){
+		fprintf(stdout, dato);
+		fread((void*) &dato, sizeof(dato),1,fd);//Uso 1 porque leo un solo dato.
+	}
+	fclose(fd); //Cierro el archivo.
+	
+	return OK;
+
+}

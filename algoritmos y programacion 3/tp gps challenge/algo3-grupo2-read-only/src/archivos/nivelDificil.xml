@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nivel Nombre="Nivel Dificil" MovimientosLimites="80" PuntajePorMovimientoSobrante="3">
+  <mapa filas="15" columnas="15">
+    <celda>
+      <coordenada x="0" y="0" />
+      <contenido tipoDeEncontrable="Conductor" />
+    </celda>
+    <celda>
+      <coordenada x="0" y="5" />
+      <contenido tipoDeEncontrable="Pozo" penalizacion="3" />
+    </celda>
+    <celda>
+      <coordenada x="0" y="9" />
+      <contenido tipoDeEncontrable="Cambio" />
+    </celda>
+    <celda>
+      <coordenada x="0" y="11" />
+      <contenido tipoDeEncontrable="Piquete" penalizacion="2" />
+    </celda>
+    <celda>
+      <coordenada x="0" y="13" />
+      <contenido tipoDeEncontrable="Pozo" penalizacion="3" />
+    </celda>
+    <celda>
+      <coordenada x="1" y="0" />
+      <contenido tipoDeEncontrable="Pozo" penalizacion="3" />
+    </celda>
+    <celda>
+      <coordenada x="1" y="2" />
+      <contenido tipoDeEncontrable="Piquete" penalizacion="2" />
+    </celda>
+    <celda>
+      <coordenada x="2" y="5" />
+      <contenido tipoDeEncontrable="Cambio" />
+    </celda>
+    <celda>
+      <coordenada x="2" y="7" />
+      <contenido tipoDeEncontrable="Control" penalizacion="3" />
+    </celda>
+    <celda>
+      <coordenada x="2" y="13" />
+      <contenido tipoDeEncontrable="Pozo" penalizacion="3" />
+    </celda>
+    <celda>
+      <coordenada x="3" y="6" />
+      <contenido tipoDeEncontrable="Piquete" penalizacion="2" />
+    </celda>
+    <celda>
+      <coordenada x="3" y="14" />
+      <contenido tipoDeEncontrable="Control" penalizacion="3" />
+    </celda>
+    <celda>
+      <coordenada x="4" y="3" />
+      <contenido tipoDeEncontrable="Cambio" />
+    </celda>
+    <celda>
+      <coordenada x="5" y="8" />
+      <contenido tipoDeEncontrable="Pozo" penalizacion="3" />
+    </celda>
+    <celda>
+      <coordenada x="6" y="3" />
+      <contenido tipoDeEncontrable="Control" penalizacion="3" />
+    </celda>
+    <celda>
+      <coordenada x="6" y="11" />
+      <contenido tipoDeEncontrable="Control" penalizacion="3" />
+    </celda>
+    <celda>
+      <coordenada x="7" y="2" />
+      <contenido tipoDeEncontrable="Pozo" penalizacion="3" />
+    </celda>
+    <celda>
+      <coordenada x="7" y="8" />
+      <contenido tipoDeEncontrable="Cambio" />
+    </celda>
+    <celda>
+      <coordenada x="9" y="2" />
+      <contenido tipoDeEncontrable="Cambio" />
+    </celda>
+    <celda>
+      <coordenada x="9" y="6" />
+      <contenido tipoDeEncontrable="Cambio" />
+    </celda>
+    <celda>
+      <coordenada x="9" y="8" />
+      <contenido tipoDeEncontrable="Control" penalizacion="3" />
+    </celda>
+    <celda>
+      <coordenada x="9" y="12" />
+      <contenido tipoDeEncontrable="Piquete" penalizacion="2" />
+    </celda>
+    <celda>
+      <coordenada x="10" y="5" />
+      <contenido tipoDeEncontrable="Snorlax" />
+    </celda>
+    <celda>
+      <coordenada x="12" y="3" />
+      <contenido tipoDeEncontrable="Snorlax" />
+    </celda>
+    <celda>
+      <coordenada x="13" y="4" />
+      <contenido tipoDeEncontrable="Pozo" penalizacion="3" />
+    </celda>
+    <celda>
+      <coordenada x="13" y="10" />
+      <contenido tipoDeEncontrable="Cambio" />
+    </celda>
+    <celda>
+      <coordenada x="14" y="5" />
+      <contenido tipoDeEncontrable="Llegada" />
+    </celda>
+    <celda>
+      <coordenada x="14" y="7" />
+      <contenido tipoDeEncontrable="Snorlax" />
+    </celda>
+  </mapa>
+</nivel>
