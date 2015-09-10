@@ -1,0 +1,25 @@
+LISTADO DE PAGOS                        02/09/15  HOJA: 0001
+CODIGO DE CLIENTE : 11111
+
+CANTIDAD DE PAGOS   FECHA DE PAGO       MONTO TOTAL PAGADO
+02                  15/09/15            00000008
+01                  15/09/15            00000010
+
+003                                   TOTAL CLIENTE 00000018
+LISTADO DE PAGOS                        02/09/15  HOJA: 0002
+CODIGO DE CLIENTE : 11112
+
+CANTIDAD DE PAGOS   FECHA DE PAGO       MONTO TOTAL PAGADO
+05                  19/09/15            00000029
+01                  20/09/15            00000001
+02                  21/09/15            00000013
+
+008                                   TOTAL CLIENTE 00000043
+LISTADO DE PAGOS                        02/09/15  HOJA: 0003
+CODIGO DE CLIENTE : 11113
+
+CANTIDAD DE PAGOS   FECHA DE PAGO       MONTO TOTAL PAGADO
+07                  22/09/15            00000003
+
+007                                   TOTAL CLIENTE 00000003
+018                                 TOTAL FINAL     00000064
