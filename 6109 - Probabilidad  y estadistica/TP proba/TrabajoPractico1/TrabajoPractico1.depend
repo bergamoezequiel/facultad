@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1446472532 source:c:\users\cbergamo\desktop\tp proba\trabajopractico1\funciones.cpp
+	<iostream>
+
+1446480345 source:c:\users\cbergamo\desktop\tp proba\trabajopractico1\main.cpp
+	<iostream>
+	<math.h>
+
+1446472520 c:\users\cbergamo\desktop\tp proba\trabajopractico1\funciones.cpp
+	<iostream>
+
